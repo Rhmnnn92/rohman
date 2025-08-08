@@ -13,7 +13,13 @@ function Navbar() {
       <div style={{ fontWeight: "bold" }}>Dashboard</div>
       <div>
         <a href="./" style={{ color: "#fff", marginRight: "1rem" }}>Profile</a>
-        <a href="/logout" style={{ color: "#fff" }}>Logout</a>
+        <a
+          href="./"
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
+          Dashboard
+        </a>
       </div>
     </nav>
   );
